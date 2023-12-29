@@ -5,7 +5,7 @@ const { User } = require("../database/model");
 const { dateLimit } = require("./settings");
 
 module.exports = async function (req, res, next) {
-	let apikey = req.query.apikey;
+	/*let apikey = req.query.apikey;
 	if (!apikey) return res.json({
 		status: false,
 		creator: "Farhannnnn",
@@ -28,4 +28,5 @@ module.exports = async function (req, res, next) {
 		apikey: users.apikey
 	}, { limit: Limit });
 	next();
+ */
 };
