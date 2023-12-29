@@ -42,7 +42,7 @@ res.on("finish", () => {
 		if (!getRoute(req)) {
 
 		} else {
-			hitCounter(1);
+			//hitCounter(1);
 		}
 	});
 	next();
