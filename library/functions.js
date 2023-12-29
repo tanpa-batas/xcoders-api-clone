@@ -7,14 +7,14 @@ const { user } = require("./settings");
 const pool = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ234567890".split("");
 const creator = "Farhannnnn";
 global.hitCount = { count: 0 }
-
+/*
 exports.hitCounter = async (add) => {
 	const hit = await User.findOne({ gmail: user });
 	await User.findOneAndUpdate({ gmail: user }, {
 		hitCount: (hit.hitCount + add)
 	});
 	return hitCount.count = hit.hitCounter;
-};
+};*/
 exports.getRoute = (request) => {
 	const route = request.route ? request.route.path : ''; // check if the handler exist
 	const baseUrl = request.baseUrl ? request.baseUrl : ''; // adding the base url if the handler is a child of another handler
